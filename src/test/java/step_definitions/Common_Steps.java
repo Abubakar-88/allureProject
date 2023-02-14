@@ -12,7 +12,7 @@ import io.cucumber.java.en.When;
 public class Common_Steps extends Base {
 	@Given("I am in Landing Home Page")
 	public void i_am_in_Landing_Page() {
-		navigateURL("https://sit.skyschooling.com/microtech////index.html");
+		navigateURL("https://it.microtechlimited.com/");
 		String s = getText(By.xpath("//div//h1['Welcome to MicroTech NA.']"));
 		assertEquals("Welcome to MicroTech NA.", s);
 	}
